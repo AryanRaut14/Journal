@@ -13,8 +13,8 @@ A secure, event-driven personal journaling platform built using the Spring Boot 
 - **Backend Framework:** Java / Spring Boot (Spring Security, Spring Web)
 - **Message Broker:** Apache Kafka
 - **Security:** OAuth2 / JWT
-- **Database:** [e.g., PostgreSQL / MySQL / MongoDB - Fill this in!]
-- **Build Tool:** [Maven / Gradle]
+- **Database:** MongoDB
+- **Build Tool:** Maven
 
 ## 🏗️ System Architecture
 The application decouples core journaling actions from background processing using a publisher-subscriber model:
